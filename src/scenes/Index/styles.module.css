@@ -1,0 +1,89 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #65b6f7 0%, #7f867b 100%);
+}
+
+.header_info {
+  height: 50px;
+  display: flex;
+}
+
+.logo {
+  background-color: #9dafba;
+  grid-area: logo;
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: black;
+}
+
+.avatar_header {
+  align-items: right;
+  padding-top: 5%;
+
+}
+
+.icon_header {
+  align-items: right;
+  padding-top: 1%;
+
+}
+
+
+.card {
+  background: beige;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5% 5% 5%
+}
+
+.footer {
+  background: linear-gradient(90deg, #7f867b 0%, #65b6f7 100%);
+
+}
+
+.todo_header {
+  background: linear-gradient(90deg, #b2dfdb 0%, #cfd8dc 100%);
+  text-align: center;
+  flex-grow: 1;
+  
+}
+
+
+.todo_text {
+  font-weight: 600;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: black;
+}
+
+.inprogress_header {
+  background: linear-gradient(90deg, #80deea 0%, #cfd8dc 100%);
+  text-align: center;
+  flex-grow: 1
+}
+
+.card_wrapper{
+  background: linear-gradient(90deg, #9ea7fc 0%, #65b6f7 100%);
+  border-color:  #80deea;
+  justify-content: space-between;
+  border-style: solid;
+}
+
+.done_header {
+  background: linear-gradient(90deg, #80cbc4 0%, #cfd8dc 100%);
+  text-align: center;
+  flex-grow: 1
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .page-wrapper {
+    padding: 0;
+  }
+}
