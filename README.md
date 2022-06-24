@@ -25,7 +25,7 @@ We provide a basic setup and a functional first version of the desired web app i
 ### UI
 
 1. Build a UI with 3 columns that looks a bit better than the one we provided.
-   (./output/image1.png)*Screen shot1*
+   ![Semantic description of image](./output/image1.png)*Screen shot1*
    
 2. Render the name of each task instead of its ID.
    
