@@ -25,8 +25,9 @@ We provide a basic setup and a functional first version of the desired web app i
 ### UI
 
 1. Build a UI with 3 columns that looks a bit better than the one we provided.
-   ![Semantic description of image](./output/image1.png)*Screen shot1*
-   
+   ![Semantic description of image](./output/image1.png)*Screen Shot1*
+   ![Semantic description of image](./output/image2.png)*Screen Shot2*
+
 2. Render the name of each task instead of its ID.
    
    > I have add "name" in the ./src/generated/graphql.tsx, JobsDocument which allowed me to pull the name of each task.
